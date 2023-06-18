@@ -24,7 +24,7 @@ int main()
 
     srand(time(NULL));
 
-    string Phrases[14] = {"data science", "top gun", "avatar", "follow your heart", "ferris bueller day off", "tunisia", "apple", "dallas college", "banana", "mars", "nasa", "falcon", "xcode", "mohamed"};
+    string Phrases[4] = {"fares", "top gun", "avatar", "follow your heart"};
     string SecretPhrase = Phrases[rand() % 3];
 
     string GuessPhrase = SecretPhrase;
